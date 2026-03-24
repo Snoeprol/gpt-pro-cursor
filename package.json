@@ -1,0 +1,14 @@
+{
+  "name": "gptpro-cursor-proxy",
+  "version": "1.0.0",
+  "description": "Proxy that adapts OpenAI Responses API (GPT-5.4 pro) to Chat Completions format for Cursor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
